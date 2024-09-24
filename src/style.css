@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  background: green;
+}
+/* ♥♦♣♠ */
+.card {
+  width: 13%;
+  height: 35%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.corner {
+  font-size: 80px;
+  position: absolute;
+  color: red; /* Cambia a negro para picas o tréboles */
+}
+
+.top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.bottom-right {
+  bottom: 5px;
+  right: 5px;
+  transform: rotate(180deg);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+.number {
+  font-size: 80px;
+  color: red; /* Cambia a negro para picas o tréboles */
+}
+.changeCard {
+  display: flex;
+  flex: auto;
+  padding: 10px;
+}
+.button-container {
+  display: grid;
+  position: relative;
+}
+.button-container span {
+  color: red;
+  margin: auto;
+}
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
